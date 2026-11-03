@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "snapshots": [
+    {
+      "schema_version": "1.0.0",
+      "dataset": "dol_perm_processing_times",
+      "source": {
+        "name": "U.S. Department of Labor FLAG",
+        "url": "https://flag.dol.gov/processingtimes",
+        "published_at": "2026-10-21T00:00:00Z",
+        "retrieved_at": "2026-10-31T01:54:50.337675+00:00",
+        "sha256": "fc359f46234b9548bb5a96126bef20013704b7bce5054e81ca0ebe8d2c81fd05"
+      },
+      "observations": [
+        {
+          "metric": "perm_queue_month",
+          "queue": "Analyst Review",
+          "report_month": "2026-10",
+          "value_month": "2026-01",
+          "unit": "priority_date_month"
+        },
+        {
+          "metric": "perm_queue_month",
+          "queue": "Audit Review",
+          "report_month": "2026-10",
+          "value_month": "2025-12",
+          "unit": "priority_date_month"
+        },
+        {
+          "metric": "perm_queue_month",
+          "queue": "Reconsideration Request to the CO",
+          "report_month": "2026-10",
+          "value_month": "2026-05",
+          "unit": "priority_date_month"
+        },
+        {
+          "metric": "perm_average_processing_days",
+          "queue": "Analyst Review",
+          "month": "2026-08",
+          "value": 303,
+          "unit": "calendar_days"
+        }
+      ],
+      "quality": {
+        "status": "verified",
+        "warnings": [
+          "Official queue indicators describe the month currently being adjudicated; they are not individual case timelines.",
+          "The Audit Review average is published as N/A and is not represented as a numeric observation."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "datasets": {
+    "dol_perm_processing_times": {
+      "status": "verified",
+      "source_url": "https://flag.dol.gov/processingtimes",
+      "last_successful_ingestion": "2026-10-31T02:01:37.386873+00:00",
+      "reason": null
+    },
+    "visa_bulletin": {
+      "status": "unavailable",
+      "source_url": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html",
+      "last_successful_ingestion": null,
+      "reason": "Official source returned HTTP 403 during verification; no bulletin data is published."
+    }
+  }
+}
